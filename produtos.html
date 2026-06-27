@@ -1,0 +1,64 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Produtos</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🌿 Vale Flora</h1>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="carrinho.html">Carrinho 🛒</a>
+        <a href="produtos.html">produtos</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+</header>
+
+<div class="cards">
+
+    <div class="card">
+        <img src="imagens/planta1.jpg">
+        <h3>Samambaia</h3>
+        <p>30</p>
+        <button class="btn" onclick="addCarrinho('Samambaia',30)">Adicionar</button>
+    </div>
+
+    <div class="card">
+        <img src="imagens/planta2.jpg">
+        <h3>Suculenta</h3>
+        <p>15</p>
+        <button class="btn" onclick="addCarrinho('Suculenta',15)">Adicionar</button>
+    </div>
+
+    <div class="card">
+        <img src="imagem_palmeiraimperial.jpg">
+        <h3>Palmeira imperial</h3>
+        <p>28,00</p>
+        <button class="btn" onclick="addCarrinho('Palmeira imperial',28.00)">Adicionar</button>
+    </div>
+
+    <div class="card">
+        <img src="imagem_ravenala.jpg">
+        <h3>Ravenala</h3>
+        <p>85,00</p>
+        <button class="btn" onclick="addCarrinho('Ravenala',85.00)">Adicionar</button>
+    </div>
+
+    <div class="card">
+        <img src="imagem_buxinho.jpg">
+        <h3>Buxinho</h3>
+        <p>30,00</p>
+        <button class="btn" onclick="addCarrinho('Buxinho',30.00)">Adicionar</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
